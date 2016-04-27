@@ -1,0 +1,14 @@
+{
+  "name": "movie-name",
+  "version": "1.0.0",
+  "description": "A microservice to get regulated movie name.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Wang <danielwpz@gmail.com> (https://github.com/danielwpz)",
+  "license": "ISC",
+  "dependencies": {
+    "dwservice": "0.0.1"
+  }
+}

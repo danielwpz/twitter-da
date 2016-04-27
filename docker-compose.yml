@@ -1,0 +1,10 @@
+version: '2'
+services:
+    web:
+        image: danielwpz/da-web
+        ports:
+            - "8080:8080"
+        depends_on: 
+            - gateway
+    gateway:
+        image: danielwpz/da-gateway

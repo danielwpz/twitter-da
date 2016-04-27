@@ -1,0 +1,7 @@
+{
+	"name": "gateway",
+	"hosts": ["http://gateway:8080"],
+	"services": {
+		"query": ["get", "/query/:name"]
+	}
+}

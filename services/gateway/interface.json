@@ -1,0 +1,7 @@
+{
+	"name": "gateway",
+	"hosts": ["http://localhost:8082"],
+	"services": {
+		"query": ["get", "/query/:name"]
+	}
+}

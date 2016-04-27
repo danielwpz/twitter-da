@@ -1,0 +1,7 @@
+{
+	"name": "movie-name",
+	"hosts": ["http://localhost:8081"],
+	"services": {
+		"getFullName": ["get", "/name/:name"]
+	}
+}
